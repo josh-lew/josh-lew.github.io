@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	background-color: #191c1d;
+	/*display: flex;
+	justify-content: space-between;
+	/*margin-left: 15%;
+	margin-right: 15%;*/
+	padding: 20px;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.name {
+	color: #f3f4f6;
+	border: solid #f3f4f6 2px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 40px;
+}
+
+.nav-buttons-1 a {
+
+	margin-right: 20px;
+	color: #fbfcfc;
+	font-size: 20px;
+}
+
+.nav-buttons-2 a {
+	margin-left: 20px;
+	color: #fbfcfc;
+	font-size: 20px;
+	
+}
+
+a:link { 
+	text-decoration: none;
+}
+
+
+a:visited { 
+	text-decoration: none; 
+}
+
+
+a:hover { 
+	text-decoration: none; 
+}
+
+
+a:active { 
+	text-decoration: none; 
+}
+
+
+.intro {
+	
+	background-image: url("images/raven2.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #d0d1d3;
+	height: 700px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 20%;
+	padding-bottom: 200px;
+	
+}
+
+
+.blurb {
+
+
+}
+
+.blurb h1 {
+	font-family: copperplate; 
+	font-size: 50px;
+	
+
+}
+
+.blurb h3 {
+	font-family: copperplate; 
+	font-size: 30px;
+	
+}
+
+
+@media screen and (max-width: 600px) {
+	.nav-buttons-1 a {
+		display: none;
+	}
+	
+	.nav-buttons-2 a {
+		display: none;
+	}
