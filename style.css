@@ -4,9 +4,10 @@
 
 body {
 	margin: 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.navbar {
+nav {
 	background-color: #191c1d;
 	/*display: flex;
 	justify-content: space-between;
@@ -22,12 +23,13 @@ body {
 	
 }
 
-.name {
+.name a {
 	color: #f3f4f6;
 	border: solid #f3f4f6 2px;
 	padding-left: 50px;
 	padding-right: 50px;
 	font-size: 40px;
+	padding-top: 5px;
 }
 
 .nav-buttons-1 a {
@@ -41,28 +43,43 @@ body {
 	margin-left: 20px;
 	color: #fbfcfc;
 	font-size: 20px;
-	
+}
+
+.name a:link { 
+	text-decoration: none;
+}
+
+.name a:visited { 
+	text-decoration: none; 
+}
+
+.name a:hover { 
+	text-decoration: none;
+	/*color: #ff7487; - horror film red*/
+	color: #1d7e2b;
+}
+
+.name a:active { 
+	text-decoration: none; 
 }
 
 a:link { 
 	text-decoration: none;
 }
 
-
 a:visited { 
 	text-decoration: none; 
 }
 
-
 a:hover { 
-	text-decoration: none; 
+	text-decoration: none;
+	/*color: #ff7487; - horror film red*/ 
+	color: #1d7e2b;
 }
-
 
 a:active { 
 	text-decoration: none; 
 }
-
 
 .intro {
 	
@@ -80,28 +97,25 @@ a:active {
 	padding-right: 20%;
 	padding-bottom: 200px;
 	padding-top: 200px;
+	font-family: 'Ibarra Real Nova', serif;
+}
 	
-}
-
-
-.blurb {
-
-
-}
-
 .blurb h1 {
-	font-family: copperplate; 
+	/*font-family: copperplate;*/ 
 	font-size: 50px;
-	
-
+	color: #686a6b;
 }
+
+.blurb h1 :hover {
+	color: red;
+}
+
 
 .blurb h3 {
-	font-family: copperplate; 
+	/*font-family: copperplate; */
 	font-size: 30px;
-	
+	color: #3f4142;
 }
-
 
 @media screen and (max-width: 1200px) {
 	.intro {
@@ -120,7 +134,6 @@ a:active {
 
 @media screen and (max-width: 500px) {
 	.intro {
-	
 		background-image: url("images/raven-resize.jpeg");
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -136,12 +149,11 @@ a:active {
 		padding-right: 5%;
 		padding-bottom: 500px;
 		padding-top: none;
-	
 	}
+	
 	.blurb {
-		
 		padding-top: 405px;
 		padding-left: 80%;
 	}
-	
+
 }	
