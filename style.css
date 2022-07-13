@@ -158,16 +158,24 @@ section div h2 {
 	width: 650px;
 	height: 540px;
 	font-size: 1.5rem;
-	border: solid #f3f4f6 35px;
+	border: solid ##191c1d 10px;
+	padding: 35px;
 	background-color:#f3f4f6;
-	font-family: 'Baloo 2', cursive;
+	/*font-family: 'Baloo 2', cursive;*/
+	font-family:  'Ibarra Real Nova', serif;
+	text-align: center;
+	border: solid #191c1d 2px;
+	border-right: solid transparent 2px;
 }
 
 img {
 	width: 650px;
 	height: 540px;
 	background-color:#f3f4f6;
-	border: solid #f3f4f6 60px;
+	/*border: solid #f3f4f6 60px;*/
+	padding: 60px;
+	border: solid #191c1d 2px;
+	border-left: solid transparent 2px;
 }
 
 
@@ -194,10 +202,12 @@ img {
 	
 	.text{
 		width: 650px;
+		border-right: solid #191c1d 2px;
 		
 	}
-	.img {
+	img {
 		width: 650px;
+		border-left: solid #191c1d 2px;
 	}
 }
 	
@@ -226,8 +236,10 @@ img {
 	.text {
 		width: 400px;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		/*border: solid #f3f4f6 10px;*/
 		margin-left: 10%;
+		padding: 10px;
+		font-size: 1.3rem;
 	}
 	
 	img {
@@ -235,7 +247,8 @@ img {
 		height: auto;
 		order: solid #f3f4f6 10px;
 		margin-left: 10%;
-		border: solid #f3f4f6 30px;
+		/*border: solid #f3f4f6 30px;*/
+		padding: 30px;
 	}
 }
 
@@ -309,15 +322,18 @@ img {
 	.text {
 		width: 370px;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
 		margin: 0px;
+		padding: 10px;
+		font-size: 1.1rem;
 	}
 	
 	img {
 		width: 370px;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
 		margin: auto;
+		padding: 10px;
 	}
 }	
 @media screen and (max-width: 412px) {
@@ -355,15 +371,18 @@ img {
 	.text {
 		width: 95%;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
 		margin: auto;
+		padding: 5px;
+		font-size: 1rem;
 	}
 	
 	img {
 		width: 95%;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
 		margin: auto;
+		padding: 5px;
 	}
 }	
 
@@ -403,15 +422,18 @@ img {
 	.text {
 		width: 350px;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
+		padding: 5px;
 		margin: 7px;
+		font-size: 1rem;
 	}
 	
 	img {
 		width: 350px;
 		height: auto;
-		border: solid #f3f4f6 10px;
+		border: solid #191c1d 2px;
 		margin: 7px;
+		padding: 5px;
 	}
 }	
 
