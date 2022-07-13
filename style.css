@@ -149,13 +149,13 @@ section div h2 {
 	width: 650px;
 	height: 540px;
 	font-size: 1.5rem;
-	border: solid ##191c1d 10px;
+	border: solid #191c1d 10px;
 	padding: 35px;
 	background-color:#f3f4f6;
 	font-family:  'Ibarra Real Nova', serif;
 	text-align: center;
 	border: solid #191c1d 5px;
-	border-right: solid transparent 0.5px;
+	border-right: 0.5px solid transparent;
 }
 
 .josh-photo {
@@ -281,9 +281,6 @@ section div h2 {
 }
 
 @media screen and (max-width: 1200px) {
-	.intro {
-		background
-	}
 	
 	.about-container{
 		display: flex;
@@ -351,7 +348,7 @@ section div h2 {
 	.josh-photo {
 		width: 400px;
 		height: auto;
-		order: solid #f3f4f6 10px;
+		border: 10px solid #f3f4f6;
 		margin-left: 10%;
 		padding: 30px;
 	}
@@ -436,7 +433,7 @@ section div h2 {
 		text-align: right;
 		padding-right: 5%;
 		padding-bottom: 500px;
-		padding-top: none;
+		padding-top: 0;
 	}
 	
 	.blurb {
@@ -486,7 +483,7 @@ section div h2 {
 		text-align: right;
 		padding-right: 5%;
 		padding-bottom: 500px;
-		padding-top: none;
+		padding-top: 0;
 	}
 	
 	.blurb {
@@ -596,7 +593,7 @@ section div h2 {
 		text-align: right;
 		padding-right: 5%;
 		padding-bottom: 500px;
-		padding-top: none;
+		padding-top: 0;
 	}
 	
 	.blurb {
@@ -634,12 +631,7 @@ section div h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 18px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
+
 	}
 
 	.project-2 {
@@ -647,12 +639,7 @@ section div h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 18px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
+
 	}
 	
 	.project-3 {
@@ -660,12 +647,7 @@ section div h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 18px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
+
 	}
 	
 	.project-4 {
@@ -673,11 +655,6 @@ section div h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 18px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
-}	
+	}
+}
 
