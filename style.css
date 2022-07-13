@@ -9,10 +9,6 @@ body {
 
 nav {
 	background-color: #191c1d;
-	/*display: flex;
-	justify-content: space-between;
-	/*margin-left: 15%;
-	margin-right: 15%;*/
 	padding: 20px;
 }
 
@@ -55,7 +51,6 @@ nav {
 
 .name a:hover { 
 	text-decoration: none;
-	/*color: #ff7487; - horror film red*/
 	color: #1d7e2b;
 }
 
@@ -73,7 +68,6 @@ a:visited {
 
 a:hover { 
 	text-decoration: none;
-	/*color: #ff7487; - horror film red*/ 
 	color: #1d7e2b;
 }
 
@@ -101,7 +95,6 @@ a:active {
 }
 	
 .blurb h1 {
-	/*font-family: copperplate;*/ 
 	font-size: 50px;
 	color: #3f4142;;
 }
@@ -112,7 +105,6 @@ a:active {
 
 
 .blurb h3 {
-	/*font-family: copperplate; */
 	font-size: 30px;
 	color: #050608;
 }
@@ -151,7 +143,6 @@ section div h2 {
 	justify-content: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	/*background-color: #f3f4f6;*/
 }
 
 .text {
@@ -161,7 +152,6 @@ section div h2 {
 	border: solid ##191c1d 10px;
 	padding: 35px;
 	background-color:#f3f4f6;
-	/*font-family: 'Baloo 2', cursive;*/
 	font-family:  'Ibarra Real Nova', serif;
 	text-align: center;
 	border: solid #191c1d 2px;
@@ -172,15 +162,10 @@ img {
 	width: 650px;
 	height: 540px;
 	background-color:#f3f4f6;
-	/*border: solid #f3f4f6 60px;*/
 	padding: 60px;
 	border: solid #191c1d 2px;
 	border-left: solid transparent 2px;
 }
-
-
-
-
 
 
 
@@ -194,7 +179,6 @@ img {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
 		width: 650px;
 		height: auto;
 		margin-left: 15%;
@@ -216,7 +200,6 @@ img {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
 		width: 650px;
 		height: auto;
 		margin-left: 10%;
@@ -227,8 +210,6 @@ img {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
-		/*width: 450px;*/
 		height: auto;
 		margin-left: 2%;
 	}	
@@ -236,7 +217,6 @@ img {
 	.text {
 		width: 400px;
 		height: auto;
-		/*border: solid #f3f4f6 10px;*/
 		margin-left: 10%;
 		padding: 10px;
 		font-size: 1.3rem;
@@ -247,22 +227,9 @@ img {
 		height: auto;
 		order: solid #f3f4f6 10px;
 		margin-left: 10%;
-		/*border: solid #f3f4f6 30px;*/
 		padding: 30px;
 	}
 }
-
-/*@media screen and (max-width: 650px) {
-	
-	.about-container{
-	    display: block;
-		width: 450px;
-		height: auto;
-	}	
-	
-	
-}*/
-
 
 @media screen and (max-width: 600px) {
 	.nav-buttons-1 a {
@@ -272,20 +239,6 @@ img {
 	.nav-buttons-2 a {
 		display: none;
 	}
-	
-	/*.about-container{
-	    display: block;
-		width: 500px;
-		height: auto;
-		margin-left: 2%;
-	}	*/
-	
-	/*img {
-		width: 500px;
-		height: auto;
-	}*/
-	
-}
 
 @media screen and (max-width: 500px) {
 	.intro {
@@ -336,6 +289,7 @@ img {
 		padding: 10px;
 	}
 }	
+
 @media screen and (max-width: 412px) {
 	.intro {
 		background-image: url("images/raven-resize.jpeg");
@@ -385,7 +339,6 @@ img {
 		padding: 5px;
 	}
 }	
-
 
 @media screen and (max-width: 400px) {
 	.intro {
