@@ -151,7 +151,7 @@ section div h2 {
 	font-size: 1.5rem;
 	border: solid #191c1d 10px;
 	padding: 35px;
-	background-color:#f3f4f6;
+	background-color:#ccced3;
 	font-family:  'Ibarra Real Nova', serif;
 	text-align: center;
 	border: solid #191c1d 5px;
@@ -161,11 +161,15 @@ section div h2 {
 .josh-photo {
 	width: 650px;
 	height: 540px;
-	background-color:#f3f4f6;
+	background-color:#ccced3;
 	padding: 60px;
 	border: solid #191c1d 5px;
 	border-left: solid transparent 0.5px;
 }
+
+
+/* PORTFOLIO SECTION*/
+
 
 .portfolio {
 	background-image: url("images/about-photo.jpg");
@@ -191,7 +195,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: #ccced3;
 	padding-right: 30px;
 }
 
@@ -213,7 +217,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: #ccced3;
 	padding-right: 30px;
 }
 	
@@ -224,7 +228,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: #ccced3;
 	padding-right: 30px;
 }		
 
@@ -235,7 +239,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: #ccced3;
 	padding-right: 30px;
 }
 
@@ -248,11 +252,47 @@ section div h2 {
 .github {
 	width: 50px;
 	height: auto;
+	padding-bottom: 20px;
 }
 
 .live {
 	width: 50px;
 	height: auto;
+}
+
+
+/* Contact Section */
+
+
+footer section h2 {
+	background-color: #191c1d;
+	color: #f3f4f6;
+	padding: 20px;
+}
+
+.contact-details {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 50px;
+}
+
+.contact-details div a img {
+	width: 75px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 30px;
+}
+
+.copyright p {
+	color: #f3f4f6;
 }
 
 /* MEDIA SCREEN SECTION*/
