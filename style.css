@@ -1,0 +1,538 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+nav {
+	background-color: #191c1d;
+	padding: 20px;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name a {
+	color: #f3f4f6;
+	border: solid #f3f4f6 2px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 40px;
+	padding-top: 5px;
+}
+
+.nav-buttons-1 a {
+
+	margin-right: 20px;
+	color: #fbfcfc;
+	font-size: 20px;
+}
+
+.nav-buttons-2 a {
+	margin-left: 20px;
+	color: #fbfcfc;
+	font-size: 20px;
+}
+
+.name a:link { 
+	text-decoration: none;
+}
+
+.name a:visited { 
+	text-decoration: none; 
+}
+
+.name a:hover { 
+	text-decoration: none;
+	color: #1d7e2b;
+}
+
+.name a:active { 
+	text-decoration: none; 
+}
+
+a:link { 
+	text-decoration: none;
+}
+
+a:visited { 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: none;
+	color: #1d7e2b;
+}
+
+a:active { 
+	text-decoration: none; 
+}
+
+.intro {
+	background-image: url("images/raven2.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #d0d1d3;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 20%;
+	padding-bottom: 200px;
+	padding-top: 360px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+	
+.blurb h1 {
+	font-size: 50px;
+	color: #050608;;
+}
+
+.blurb h1 :hover {
+	color: red;
+}
+
+.blurb h3 {
+	font-size: 30px;
+	color: #050608;
+}
+
+/* ABOUT SECTION*/
+
+.about {
+	background-image: url("images/about-photo.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #d0d1d3;
+}
+
+.central-container {
+	height: 100px;
+}
+
+section .title-border {
+	display: flex;
+	justify-content: center;	
+	background-color: #191c1d;
+	width: 100%;
+}
+
+section div h2 {
+	background-color: #191c1d;
+	color: #f3f4f6;
+	padding: 20px;
+
+}
+
+.about-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.text {
+	width: 650px;
+	height: 540px;
+	font-size: 1.5rem;
+	border: solid #191c1d 10px;
+	padding: 35px;
+	background-color:rgba(204, 206, 211, 0.7);
+	font-family:  'Ibarra Real Nova', serif;
+	text-align: center;
+	border: solid #191c1d 5px;
+	border-right: 0.5px solid transparent;
+}
+
+.josh-photo {
+	width: 650px;
+	height: 540px;
+	background-color:rgba(204, 206, 211, 0.7);
+	padding: 60px;
+	border: solid #191c1d 5px;
+	border-left: solid transparent 0.5px;
+}
+
+
+/* PORTFOLIO SECTION*/
+
+
+.portfolio {
+	background-image: url("images/about-photo.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #d0d1d3;
+}
+
+.portfolio-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.project-boxes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	border: solid #191c1d 5px;
+	width: 1300px;
+	background-color: rgba(204, 206, 211, 0.7);
+	padding-right: 30px;
+}
+
+.project-photo {
+	width: 380px;
+	height: auto;
+	opacity: 0.6;
+	padding-left: 20px;
+}
+
+.project-photo:hover {
+	opacity: 1;
+}
+
+.project-description {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	width: 8%;
+}
+
+.github {
+	width: 50px;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.live {
+	width: 50px;
+	height: auto;
+}
+
+
+/* Contact Section */
+
+
+footer section h2 {
+	background-color: #191c1d;
+	color: #f3f4f6;
+	padding: 20px;
+}
+
+.contact-details {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 50px;
+}
+
+.contact-details div a img {
+	width: 75px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 30px;
+}
+
+.copyright p {
+	color: #f3f4f6;
+}
+
+/* MEDIA SCREEN SECTION*/
+
+@media screen and (max-width: 1330px) {
+	.project-boxes {
+		width: 90%;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 650px;
+		height: auto;
+		margin-left: 15%;
+	}
+	
+	.text{
+		width: 650px;
+		border-right: solid #191c1d 5px;
+	}
+	
+	.josh-photo {
+		width: 650px;
+		border-left: solid #191c1d 5px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.project-description {
+		display: none;
+	}
+	.portfolio-container {
+		display: flex;
+		flex-direction: column;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.project-photo {
+		width: 300px;
+		height: auto;
+	}
+}
+	
+@media screen and (max-width: 800px) {
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 650px;
+		height: auto;
+		margin-left: 10%;
+	}
+}	
+	
+@media screen and (max-width: 700px) {
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		height: auto;
+		margin-left: 2px;
+	}	
+	
+	.text {
+		width: 400px;
+		height: auto;
+		margin-left: 10%;
+		padding: 10px;
+		font-size: 1.3rem;
+	}
+	
+	.josh-photo {
+		width: 400px;
+		height: auto;
+		margin-left: 10%;
+		padding: 30px;
+	}
+	
+	.project-boxes {
+		display: flex;
+		flex-direction: column;
+		margin-left: 30px;
+	}
+	
+	.links {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav-buttons-1 a {
+		display: none;
+	}
+	
+	.nav-buttons-2 a {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.intro {
+		background-image: url("images/raven-resize.jpeg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #d0d1d3;
+		width: 100%;
+		height: 825px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		text-align: right;
+		padding-right: 5%;
+		padding-bottom: 500px;
+		padding-top: 0;
+	}
+	
+	.blurb {
+		padding-top: 405px;
+		padding-left: 80%;
+	}
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		height: auto;
+	}	
+	
+	.text {
+		width: 370px;
+		height: auto;
+		border: solid #191c1d 5px;
+		margin: 0px;
+		padding: 10px;
+		font-size: 1.1rem;
+	}
+	
+	.josh-photo {
+		width: 370px;
+		height: auto;
+		border: solid #191c1d 5px;
+		margin: auto;
+		padding: 10px;
+	}
+}	
+
+@media screen and (max-width: 412px) {
+	.intro {
+		background-image: url("images/raven-resize.jpeg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #d0d1d3;
+		width: 100%;
+		height: 825px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		text-align: right;
+		padding-right: 5%;
+		padding-bottom: 500px;
+		padding-top: 0;
+	}
+	
+	.blurb {
+		padding-top: 300px;
+		padding-left: 80%;
+	}
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		height: auto;
+	}	
+	
+	.text {
+		width: 95%;
+		height: auto;
+		border: solid #191c1d 5px;
+		margin: auto;
+		padding: 5px;
+		font-size: 1rem;
+	}
+	
+	.josh-photo {
+		width: 95%;
+		height: auto;
+		border: solid #191c1d 5px;
+		margin: auto;
+		padding: 5px;
+	}
+		
+	.project-boxes {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin-left: 20px;
+	}
+
+	.project-photo {
+		width: 300px;
+		height: auto;
+		padding-left: 27px;
+	}
+	.projects div h3 {
+		padding-left: 27px;
+	}
+}	
+
+@media screen and (max-width: 400px) {
+	.intro {
+		background-image: url("images/raven-resize.jpeg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #d0d1d3;
+		width: 100%;
+		height: 825px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		text-align: right;
+		padding-right: 5%;
+		padding-bottom: 500px;
+		padding-top: 0;
+	}
+	
+	.blurb {
+		padding-top: 496px;
+		padding-left: 80%;
+	}
+	
+	.about-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 350px;
+		height: auto;
+	}	
+	
+	.text {
+		width: 335px;
+		height: auto;
+		border: solid #191c1d 5px;
+		padding: 5px;
+		margin: 18px;
+		font-size: 1rem;
+	}
+	
+	.josh-photo {
+		width: 335px;
+		height: auto;
+		border: solid #191c1d 5px;
+		margin: 18px;
+		padding: 5px;
+	}
+	
+	.project-boxes {
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		margin: 14px;
+	}
+}	
+
