@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -222,11 +226,23 @@ section div h2 {
 	width: 50px;
 	height: auto;
 	padding-bottom: 20px;
+	transition: transform 0.5s;
 }
 
 .live {
 	width: 50px;
 	height: auto;
+	transition: transform 0.5s;
+}
+
+.github:hover {
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
+
+.live:hover {
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 
 
@@ -262,6 +278,15 @@ footer section h2 {
 
 .copyright p {
 	color: #f3f4f6;
+}
+
+.contact-links:hover {
+	transform: scale(1.2);
+	transition: transform 0.5s; 
+}
+
+.contact-links {
+	transition: transform 0.5s; 
 }
 
 /* MEDIA SCREEN SECTION*/
@@ -473,6 +498,7 @@ footer section h2 {
 	.project-photo {
 		width: 300px;
 		height: auto;
+		opacity: 1;
 		padding-left: 27px;
 	}
 	.projects div h3 {
