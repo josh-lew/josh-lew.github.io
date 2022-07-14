@@ -16,7 +16,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .name a {
@@ -76,7 +75,6 @@ a:active {
 }
 
 .intro {
-	
 	background-image: url("images/raven2.jpeg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -90,13 +88,13 @@ a:active {
 	align-items: center;
 	padding-right: 20%;
 	padding-bottom: 200px;
-	padding-top: 200px;
+	padding-top: 360px;
 	font-family: 'Ibarra Real Nova', serif;
 }
 	
 .blurb h1 {
 	font-size: 50px;
-	color: #3f4142;;
+	color: #050608;;
 }
 
 .blurb h1 :hover {
@@ -151,7 +149,7 @@ section div h2 {
 	font-size: 1.5rem;
 	border: solid #191c1d 10px;
 	padding: 35px;
-	background-color:#f3f4f6;
+	background-color:rgba(204, 206, 211, 0.7);
 	font-family:  'Ibarra Real Nova', serif;
 	text-align: center;
 	border: solid #191c1d 5px;
@@ -161,11 +159,15 @@ section div h2 {
 .josh-photo {
 	width: 650px;
 	height: 540px;
-	background-color:#f3f4f6;
+	background-color:rgba(204, 206, 211, 0.7);
 	padding: 60px;
 	border: solid #191c1d 5px;
 	border-left: solid transparent 0.5px;
 }
+
+
+/* PORTFOLIO SECTION*/
+
 
 .portfolio {
 	background-image: url("images/about-photo.jpg");
@@ -174,7 +176,6 @@ section div h2 {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #d0d1d3;
-	
 }
 
 .portfolio-container {
@@ -191,13 +192,19 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
 
 .project-photo {
-	width: 400px;
+	width: 380px;
 	height: auto;
+	opacity: 0.6;
+	padding-left: 20px;
+}
+
+.project-photo:hover {
+	opacity: 1;
 }
 
 .project-description {
@@ -213,7 +220,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
 	
@@ -224,7 +231,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }		
 
@@ -235,7 +242,7 @@ section div h2 {
 	margin-top: 100px;
 	border: solid #191c1d 5px;
 	width: 1300px;
-	background-color: #f3f4f6;
+	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
 
@@ -248,11 +255,47 @@ section div h2 {
 .github {
 	width: 50px;
 	height: auto;
+	padding-bottom: 20px;
 }
 
 .live {
 	width: 50px;
 	height: auto;
+}
+
+
+/* Contact Section */
+
+
+footer section h2 {
+	background-color: #191c1d;
+	color: #f3f4f6;
+	padding: 20px;
+}
+
+.contact-details {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 50px;
+}
+
+.contact-details div a img {
+	width: 75px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	background-color: #353b3f;
+	padding-top: 30px;
+}
+
+.copyright p {
+	color: #f3f4f6;
 }
 
 /* MEDIA SCREEN SECTION*/
@@ -293,7 +336,6 @@ section div h2 {
 	.text{
 		width: 650px;
 		border-right: solid #191c1d 5px;
-		
 	}
 	
 	.josh-photo {
@@ -357,54 +399,29 @@ section div h2 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-2 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-3 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-4  {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.links {
 		display: flex;
 		justify-content: center;
-		/*width: 8%;*/
 
 }
 
@@ -444,8 +461,6 @@ section div h2 {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
-		/*width: 450px;*/
 		height: auto;
 	}	
 	
@@ -494,7 +509,6 @@ section div h2 {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
 		width: 100%;
 		height: auto;
 	}	
@@ -521,12 +535,6 @@ section div h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 
 	.project-2 {
@@ -534,12 +542,6 @@ section div h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-3 {
@@ -547,12 +549,6 @@ section div h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-4 {
@@ -560,12 +556,6 @@ section div h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	.project-photo {
 		width: 300px;
@@ -630,31 +620,28 @@ section div h2 {
 		display: flex;
 		flex-direction: column;
 		width: 350px;
-		margin: 18px;
-
+		margin: 14px;
 	}
 
 	.project-2 {
 		display: flex;
 		flex-direction: column;
 		width: 350px;
-		margin: 18px;
-
+		margin: 14px;
 	}
 	
 	.project-3 {
 		display: flex;
 		flex-direction: column;
 		width: 350px;
-		margin: 18px;
-
+		margin: 14px;
 	}
 	
 	.project-4 {
 		display: flex;
 		flex-direction: column;
 		width: 350px;
-		margin: 18px;
+		margin: 14px;
 	}
-}
+}	
 
