@@ -101,7 +101,6 @@ a:active {
 	color: red;
 }
 
-
 .blurb h3 {
 	font-size: 30px;
 	color: #050608;
@@ -185,7 +184,7 @@ section div h2 {
 	padding-bottom: 50px;
 }
 
-.project-1 {
+.project-boxes {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -211,39 +210,6 @@ section div h2 {
 	display: flex;
 	flex-direction: column;
 	width: 25%;
-}
-
-.project-2 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 100px;
-	border: solid #191c1d 5px;
-	width: 1300px;
-	background-color: rgba(204, 206, 211, 0.7);
-	padding-right: 30px;
-}
-	
-.project-3 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 100px;
-	border: solid #191c1d 5px;
-	width: 1300px;
-	background-color: rgba(204, 206, 211, 0.7);
-	padding-right: 30px;
-}		
-
-.project-4 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 100px;
-	border: solid #191c1d 5px;
-	width: 1300px;
-	background-color: rgba(204, 206, 211, 0.7);
-	padding-right: 30px;
 }
 
 .links {
@@ -301,26 +267,10 @@ footer section h2 {
 /* MEDIA SCREEN SECTION*/
 
 @media screen and (max-width: 1330px) {
-	.project-1 {
+	.project-boxes {
 		width: 90%;
 		margin-left: 50px;
 	}
-	
-	.project-2 {
-		width: 90%;
-		margin-left: 50px;
-	}
-	
-	.project-3 {
-		width: 90%;
-		margin-left: 50px;
-	}
-	
-	.project-4 {
-		width: 90%;
-		margin-left: 50px;
-	}
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -369,6 +319,7 @@ footer section h2 {
 		height: auto;
 		margin-left: 10%;
 	}
+}	
 	
 @media screen and (max-width: 700px) {
 	
@@ -394,25 +345,7 @@ footer section h2 {
 		padding: 30px;
 	}
 	
-	.project-1 {
-		display: flex;
-		flex-direction: column;
-		margin-left: 30px;
-	}
-	
-	.project-2 {
-		display: flex;
-		flex-direction: column;
-		margin-left: 30px;
-	}
-	
-	.project-3 {
-		display: flex;
-		flex-direction: column;
-		margin-left: 30px;
-	}
-	
-	.project-4  {
+	.project-boxes {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
@@ -421,7 +354,7 @@ footer section h2 {
 	.links {
 		display: flex;
 		justify-content: center;
-
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -432,6 +365,7 @@ footer section h2 {
 	.nav-buttons-2 a {
 		display: none;
 	}
+}
 
 @media screen and (max-width: 500px) {
 	.intro {
@@ -529,33 +463,13 @@ footer section h2 {
 		padding: 5px;
 	}
 		
-	.project-1 {
+	.project-boxes {
 		display: flex;
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
 	}
 
-	.project-2 {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		margin-left: 20px;
-	}
-	
-	.project-3 {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		margin-left: 20px;
-	}
-	
-	.project-4 {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		margin-left: 20px;
-	}
 	.project-photo {
 		width: 300px;
 		height: auto;
@@ -586,14 +500,13 @@ footer section h2 {
 	}
 	
 	.blurb {
-		padding-top: 300px;
+		padding-top: 496px;
 		padding-left: 80%;
 	}
 	
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
 		width: 350px;
 		height: auto;
 	}	
@@ -615,28 +528,7 @@ footer section h2 {
 		padding: 5px;
 	}
 	
-	.project-1 {
-		display: flex;
-		flex-direction: column;
-		width: 350px;
-		margin: 14px;
-	}
-
-	.project-2 {
-		display: flex;
-		flex-direction: column;
-		width: 350px;
-		margin: 14px;
-	}
-	
-	.project-3 {
-		display: flex;
-		flex-direction: column;
-		width: 350px;
-		margin: 14px;
-	}
-	
-	.project-4 {
+	.project-boxes {
 		display: flex;
 		flex-direction: column;
 		width: 350px;
