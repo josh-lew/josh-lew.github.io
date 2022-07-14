@@ -16,7 +16,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .name a {
@@ -76,7 +75,6 @@ a:active {
 }
 
 .intro {
-	
 	background-image: url("images/raven2.jpeg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -178,7 +176,6 @@ section div h2 {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #d0d1d3;
-	
 }
 
 .portfolio-container {
@@ -204,7 +201,6 @@ section div h2 {
 	height: auto;
 	opacity: 0.6;
 	padding-left: 20px;
-	
 }
 
 .project-photo:hover {
@@ -340,7 +336,6 @@ footer section h2 {
 	.text{
 		width: 650px;
 		border-right: solid #191c1d 5px;
-		
 	}
 	
 	.josh-photo {
@@ -404,54 +399,29 @@ footer section h2 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-2 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-3 {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-4  {
 		display: flex;
 		flex-direction: column;
 		margin-left: 30px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.links {
 		display: flex;
 		justify-content: center;
-		/*width: 8%;*/
 
 }
 
@@ -491,8 +461,6 @@ footer section h2 {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
-		/*width: 450px;*/
 		height: auto;
 	}	
 	
@@ -541,7 +509,6 @@ footer section h2 {
 	.about-container{
 		display: flex;
 		flex-direction: column-reverse;
-	    /*display: block;*/
 		width: 100%;
 		height: auto;
 	}	
@@ -568,12 +535,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 
 	.project-2 {
@@ -581,12 +542,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-3 {
@@ -594,12 +549,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	
 	.project-4 {
@@ -607,12 +556,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 90%;
 		margin-left: 20px;
-		/*align-items: center;
-		margin-top: 100px;
-		border: solid #191c1d 5px;
-		width: 1300px;
-		background-color: #f3f4f6;
-		padding-right: 30px;*/
 	}
 	.project-photo {
 		width: 300px;
@@ -678,7 +621,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 14px;
-
 	}
 
 	.project-2 {
@@ -686,7 +628,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 14px;
-
 	}
 	
 	.project-3 {
@@ -694,7 +635,6 @@ footer section h2 {
 		flex-direction: column;
 		width: 350px;
 		margin: 14px;
-
 	}
 	
 	.project-4 {
