@@ -498,6 +498,7 @@ footer section h2 {
 	.project-photo {
 		width: 300px;
 		height: auto;
+		opacity: 1;
 		padding-left: 27px;
 	}
 	.projects div h3 {
