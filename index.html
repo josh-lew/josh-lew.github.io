@@ -2,20 +2,21 @@
 <html lang="en-gb">
 <head>
 	<title>Josh Lewis Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<link href="normalize.css" type="text/css" rel="stylesheet" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
-	<link href="style.css" type="text/css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>	
 	
-	<nav>
+	<!-- <nav> -->
 		
-		<section class="navbar-container">
+		<!-- <section class="navbar-container">
 		
 
 			<div class="nav-buttons-1">
@@ -33,16 +34,29 @@
 			
 			</div>	
 		
-		</section>
-	
-	</nav>
+		</section> -->
+	<!-- </nav> -->
 
-	<header class="intro">
-		
-		<section class="blurb">	
-			<h1>Josh Lewis</h1>
-			<h3>Full Stack Developer</h3>
-		</section>
+
+	<div class="container-fluid">
+		<nav class="row justify-content-center align-items-center fs-3 py-2 py-md-3 py-lg-3">
+			<a class="navNone col text-center text-lg-end text-white" href="#about-section">About</a>
+			<a class="navNone col text-center text-white" href="#portfolio-section">Portfolio</a>
+			<a class="col-4 col-md-2 col-lg-2 text-center fs-1 fs-md-2 fs-lg-2 text-white border border-3 border-white" href="#">JL</a>
+			<a class="navNone col text-white text-center" href="#contact-section">Contact</a>
+			<a class="navNone col text-start  text-white" href="#">CV</a>
+		</nav>
+	</div>
+
+	
+	
+
+	<header class="intro container-fluid">
+			<div class="col-2 col-lg-3 offset-md-8 offset-lg-8">
+				<h1 class="fs-1">Josh Lewis
+				<br><small class="text-muted">Full Stack Developer</small>
+				</h1>
+			</div>	
 		
 	</header>	
 	
@@ -81,6 +95,8 @@
 			</div>
 		</section>
 	</main>	
+
+	
 	
 	<section class="portfolio">
 		
@@ -95,35 +111,26 @@
 		</section>
 		
 		<section class="portfolio-outer-container">
-			
 			<div class="portfolio-container">
-		
 				<section class="projects">
-			
 					<div class="project-boxes">
-			
-						<img class="project-photo" src="images/fire.jpg" alt="Project Photo">
-					
+						<img class="project-photo" src="images/guidebooks.png" alt="Project Photo">
 						<h3>Project 1</h3>
-						
 						<section class="project-description">
 							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
 						</section>
-					
 						<section class="links">
-					
-							<a href="#">
+							<a href="https://github.com/josh-lew/collection" target="_blank">
 								<img class="github" src="images/github.png" alt="github link"></a>
-							<a href="#">
+							<a href="https://2022-joshual.dev.io-academy.uk/collection/index.php" target="_blank">
 								<img class="live" src="images/live.png" alt="live link"></a>
-						
 						</section>
 						
 					</div>
 			
 					<div class="project-boxes">
 			
-						<img class="project-photo" src="images/fire.jpg" alt="Project Photo">
+						<img class="project-photo" src="images/Quotlefish.png" alt="Project Photo">
 					
 						<h3>Project 2</h3>
 					
@@ -135,9 +142,9 @@
 						
 						<section class="links">
 					
-							<a href="#">
+							<a href="https://github.com/iO-Academy/2022-jul-guess-the-film" target="_blank">
 								<img class="github" src="images/github.png" alt="github link"></a>
-							<a href="#">
+							<a href="https://dev.io-academy.uk/projects/2022-july/quotlefish/" target="_blank">
 								<img class="live" src="images/live.png" alt="live link"></a>
 						
 						</section>
