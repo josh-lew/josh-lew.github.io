@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+	<script src='index.js' defer></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -32,8 +33,8 @@
 	</header>	
 	
 	<main class="about container-fluid">
-		<section class="row central-container mb-5">
-			<section class="title-border align-items-center d-flex justify-content-center py-5" id="about-section">
+		<section class="row mb-5">
+			<section class="titleBorder align-items-center d-flex justify-content-center py-5" id="about-section">
 				<div>
 					<h2>About</h2>
 				</div>
@@ -42,7 +43,7 @@
 		
 		<section class="container">
 			<div class="aboutContainer row d-flex justify-content-center">
-				<div class="col-6 p-3">	
+				<div class="col-6 p-3 text">	
 					<p>Hi everyone, I'm Josh and I'm a full stack developer based in Cardiff.</p> 
 					<p>Prior to joining the IO Academy I spent almost a decade working as an environmental consultant before being introduced to coding and making the leap into the tech.</p>
 					<p>When I'm away from my screen you will find me climbing rocks, out in the sea or scrambling about in nature.</p>
@@ -52,26 +53,26 @@
 				</div>				
 			</div>
 		</section>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	</main>	
 	
-	<section class="portfolio">
-		
-		<section class="row central-container mb-5">
-			<section class="title-border align-items-center d-flex justify-content-center py-5" id="portfolio-section">
+	<section class="container-fluid portfolio">
+		<section class="row mb-5">
+			<section class="titleBorder align-items-center d-flex justify-content-center py-5" id="portfolio-section">
 				<div>
-					<h2>Projects</h2>
+					<h2>Portfolio</h2>
 				</div>
 			</section>
 		</section>
-		
-		<section class="container col-12 portfolio-outer-container">
+
+		<section class="container col-12 portfolioOuterContainer">
 			<div class="portfolio-container">
 				<section class="projects d-flex flex-column">
 					<div class="project-boxes d-flex justify-content-between align-items-center p-3">
 						<img class="project-photo" src="images/guidebooks.png" alt="Project Photo">
 						<h3>Project 1</h3>
 						<section class="project-description">
-							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
+							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! </p>
 						</section>
 						<section class="links">
 							<a href="https://github.com/josh-lew/collection" target="_blank">
@@ -91,7 +92,7 @@
 					
 						<section class="project-description">
 							
-							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
+							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
 						
 						</section>
 						
@@ -114,7 +115,7 @@
 						<h3>Project 3</h3>
 					
 						<section class="project-description">
-							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
+							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
 						</section>
 					
 						<section class="links">
@@ -137,7 +138,7 @@
 						<h3>Project 4</h3>
 					
 						<section class="project-description">
-							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
+							<p>This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire! This project is absolute fire!</p>
 						</section>
 					
 						<section class="links">
@@ -148,52 +149,34 @@
 								<img class="live" src="images/live.png" alt="live link"></a>
 						
 						</section>
-						
 					</div>
-					</section>
-			
-				</section>
-			
-			</div>
-		
-		</section>
-		
+					</section>			
+				</section>			
+			</div>		
+		</section>		
 	</section>
 	
-	
 	<footer class="contact">
-		
-		<section class="central-container">
-			
-			<section class="row central-container mb-5">
-				<section class="title-border align-items-center d-flex justify-content-center py-5" id="portfolio-section">
-					<div>
-						<h2>Contact</h2>
-					</div>
-				</section>
-			</section>
-			
-			<section class="container-fluid contact-details d-flex justify-content-center">
-				<div class="flex-row justify-content-center align-items-center">
-					<a href="#"><img class="contact-links" src="images/email.png" alt="email link"></a>
-					<a href="#"><img class="contact-links" src="images/github.png" alt="github link"></a>
-					<a href="https://www.linkedin.com/in/joshua-lewis-20815073" target="_blank"><img class="contact-links" src="images/linkedin.png" alt="linkedin link"></a>
-					<a href="#"><img class="contact-links" src="images/cv.png" alt="cv link"></a>
+		<section class="row">
+			<section class="contactHeader titleBorder align-items-center d-flex justify-content-center py-5" id="contact-section">
+				<div>
+					<h2>Contact</h2>
 				</div>
-					
-			</section>	
-					
-			<section class="copyright">	
-						
-						<p>Designed and Build by Josh Lewis</p> 
-		
 			</section>
-					
-			
-			
 		</section>
-
-	</footer>
-
-
-</html>
+		
+		<section class="contactDetails d-flex justify-content-center">
+			<div class="flex-row justify-content-center align-items-center">
+				<a href="#"><img class="contact-links" src="images/email.png" alt="email link"></a>
+				<a href="#"><img class="contact-links" src="images/github.png" alt="github link"></a>
+				<a href="https://www.linkedin.com/in/joshua-lewis-20815073" target="_blank"><img class="contact-links" src="images/linkedin.png" alt="linkedin link"></a>
+				<a href="#"><img class="contact-links" src="images/cv.png" alt="cv link"></a>
+			</div>
+		</section>	
+				
+		<section class="copyright">	
+					
+			<p>Designed and built by Josh Lewis</p> 
+	
+		</section>
+</footer></html>
