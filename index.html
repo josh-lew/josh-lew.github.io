@@ -13,31 +13,6 @@
 </head>
 
 <body>	
-	
-	<!-- <nav> -->
-		
-		<!-- <section class="navbar-container">
-		
-
-			<div class="nav-buttons-1">
-				<a href="#about-section">About</a>
-				<a href="#portfolio-section">Portfolio</a>
-			</div>	
-		
-			<div class="name">
-				<a href="#">JL</a>
-			</div>
-		
-			<div class="nav-buttons-2">
-				<a href="#contact-section">Contact</a>
-				<a href="#">CV</a>
-			
-			</div>	
-		
-		</section> -->
-	<!-- </nav> -->
-
-
 	<div class="container-fluid">
 		<nav class="row justify-content-center align-items-center fs-3 py-2 py-md-3 py-lg-3">
 			<a class="navNone col text-center text-lg-end text-white" href="#about-section">About</a>
@@ -48,72 +23,51 @@
 		</nav>
 	</div>
 
-	
-	
-
 	<header class="intro container-fluid">
-			<div class="col-2 col-lg-3 offset-md-8 offset-lg-8">
+			<div class="nameBackground col-2 col-lg-3 offset-md-8 offset-lg-8">
 				<h1 class="fs-1">Josh Lewis
 				<br><small class="text-muted">Full Stack Developer</small>
 				</h1>
 			</div>	
-		
 	</header>	
 	
-	<main class="about">
-		
-		<section class="central-container">
-		
-			<section class="title-border" id="about-section">
+	<main class="about container-fluid">
+		<section class="row central-container mb-5">
+			<section class="title-border align-items-center d-flex justify-content-center py-5" id="about-section">
 				<div>
 					<h2>About</h2>
 				</div>
 			</section>
-		
 		</section>
 		
-		<section class="about-outer-container">
-			
-			<div class="about-container">
-				
-				<section class="text">
-			
-					<div>	
-						<p>Hi everyone, I'm Josh and I'm a full stack developer based in Cardiff.</p> 
-						<p>Prior to joining the IO Academy I spent almost a decade working as an environmental consultant before being introduced to coding and making the leap into the tech.</p>
-						<p>When I'm away from my screen you will find me climbing rocks, out in the sea or scrambling about in nature.</p>
-					</div>
-			
-				</section>
-			
-				<section class="profile-photo">
-			
-					<img class="josh-photo" src="images/profile-photo.jpeg" alt="Profile Photo">
-			
-				</section>	
-				
+		<section class="container">
+			<div class="aboutContainer row d-flex justify-content-center">
+				<div class="col-6 p-3">	
+					<p>Hi everyone, I'm Josh and I'm a full stack developer based in Cardiff.</p> 
+					<p>Prior to joining the IO Academy I spent almost a decade working as an environmental consultant before being introduced to coding and making the leap into the tech.</p>
+					<p>When I'm away from my screen you will find me climbing rocks, out in the sea or scrambling about in nature.</p>
+				</div>
+				<div class="col-6">
+				<img class="josh-photo p-3" src="images/profile-photo.jpeg" alt="Profile Photo">	
+				</div>				
 			</div>
 		</section>
 	</main>	
-
-	
 	
 	<section class="portfolio">
 		
-		<section class="central-container">
-		
-			<section class="title-border" id="portfolio-section">
+		<section class="row central-container mb-5">
+			<section class="title-border align-items-center d-flex justify-content-center py-5" id="portfolio-section">
 				<div>
 					<h2>Projects</h2>
 				</div>
 			</section>
-		
 		</section>
 		
-		<section class="portfolio-outer-container">
+		<section class="container col-12 portfolio-outer-container">
 			<div class="portfolio-container">
-				<section class="projects">
-					<div class="project-boxes">
+				<section class="projects d-flex flex-column">
+					<div class="project-boxes d-flex justify-content-between align-items-center p-3">
 						<img class="project-photo" src="images/guidebooks.png" alt="Project Photo">
 						<h3>Project 1</h3>
 						<section class="project-description">
@@ -128,7 +82,8 @@
 						
 					</div>
 			
-					<div class="project-boxes">
+					<section class="projects d-flex flex-column">
+						<div class="project-boxes d-flex justify-content-between align-items-center p-3">
 			
 						<img class="project-photo" src="images/Quotlefish.png" alt="Project Photo">
 					
@@ -149,8 +104,10 @@
 						
 						</section>
 					</div>
+					</section>
 			
-					<div class="project-boxes">
+					<section class="projects d-flex flex-column">
+						<div class="project-boxes d-flex justify-content-between align-items-center p-3">
 			
 						<img class="project-photo" src="images/fire.jpg" alt="Project Photo">
 					
@@ -170,8 +127,10 @@
 						</section>
 						
 					</div>
+					</section>
 			
-					<div class="project-boxes">
+					<section class="projects d-flex flex-column">
+						<div class="project-boxes d-flex justify-content-between align-items-center p-3">
 			
 						<img class="project-photo" src="images/fire.jpg" alt="Project Photo">
 					
@@ -191,6 +150,7 @@
 						</section>
 						
 					</div>
+					</section>
 			
 				</section>
 			
@@ -205,32 +165,27 @@
 		
 		<section class="central-container">
 			
-			<section class="title-border" id="contact-section">
-				
-				<div>
-			
-					<h2>Contact</h2>
-				
-				</div>
-			
+			<section class="row central-container mb-5">
+				<section class="title-border align-items-center d-flex justify-content-center py-5" id="portfolio-section">
+					<div>
+						<h2>Contact</h2>
+					</div>
+				</section>
 			</section>
 			
-			<section class="contact-details">
-			
-					<div class="contact-container">
-				
-						<a href="#"><img class="contact-links" src="images/email.png" alt="email link"></a>
-						<a href="#"><img class="contact-links" src="images/github.png" alt="github link"></a>
-						<a href="https://www.linkedin.com/in/joshua-lewis-20815073" target="_blank"><img class="contact-links" src="images/linkedin.png" alt="linkedin link"></a>
-						<a href="#"><img class="contact-links" src="images/cv.png" alt="cv link"></a>
-					
-					</div>	
+			<section class="container-fluid contact-details d-flex justify-content-center">
+				<div class="flex-row justify-content-center align-items-center">
+					<a href="#"><img class="contact-links" src="images/email.png" alt="email link"></a>
+					<a href="#"><img class="contact-links" src="images/github.png" alt="github link"></a>
+					<a href="https://www.linkedin.com/in/joshua-lewis-20815073" target="_blank"><img class="contact-links" src="images/linkedin.png" alt="linkedin link"></a>
+					<a href="#"><img class="contact-links" src="images/cv.png" alt="cv link"></a>
+				</div>
 					
 			</section>	
 					
 			<section class="copyright">	
 						
-						<p>Copyright Josh Lewis 2022 ©</p> 
+						<p>Designed and Build by Josh Lewis</p> 
 		
 			</section>
 					

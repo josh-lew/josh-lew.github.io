@@ -87,33 +87,16 @@ header {
 	background-color: #d0d1d3;
 	width: 100%;
 	height: 825px;
-	/* display: flex;
-	justify-content: flex-end;
-	align-items: center; */
 	padding-right: 20%;
 	padding-bottom: 200px;
-	padding-top: 360px;
+	padding-top: 280px;
 	font-family: 'Ibarra Real Nova', serif;
 }
 	
-.blurb h1 {
-	font-size: 50px;
-	color: #050608;;
-}
-
-.blurb h1 :hover {
-	color: red;
-}
-
-.blurb h3 {
-	font-size: 30px;
-	color: #050608;
-}
-
 /* ABOUT SECTION*/
 
 .about {
-	background-image: url("images/newAboutPhoto.jpg");
+	background-image: url("images/Josh-Kaly-10.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -125,9 +108,7 @@ header {
 	height: 100px;
 }
 
-section .title-border {
-	display: flex;
-	justify-content: center;	
+section .title-border {	
 	background-color: #191c1d;
 	width: 100%;
 }
@@ -135,15 +116,12 @@ section .title-border {
 section div h2 {
 	background-color: #191c1d;
 	color: #f3f4f6;
-	padding: 20px;
-
 }
 
-.about-container {
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.aboutContainer {
+	border: solid #191c1d 5px;
+	background-color:rgba(204, 206, 211, 0.7);
+	margin-top: 50px;
 }
 
 .text {
@@ -151,21 +129,13 @@ section div h2 {
 	height: 540px;
 	font-size: 1.5rem;
 	border: solid #191c1d 10px;
-	padding: 35px;
-	background-color:rgba(204, 206, 211, 0.7);
 	font-family:  'Ibarra Real Nova', serif;
 	text-align: center;
-	border: solid #191c1d 5px;
-	border-right: 0.5px solid transparent;
 }
 
 .josh-photo {
 	width: 650px;
-	height: 540px;
-	background-color:rgba(204, 206, 211, 0.7);
-	padding: 60px;
-	border: solid #191c1d 5px;
-	border-left: solid transparent 0.5px;
+	height: auto;
 }
 
 
@@ -173,7 +143,7 @@ section div h2 {
 
 
 .portfolio {
-	background-image: url("images/newAboutPhoto.jpg");
+	background-image: url("images/Josh-Kaly-10.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -181,20 +151,17 @@ section div h2 {
 	background-color: #d0d1d3;
 }
 
-.portfolio-container {
+/* .portfolio-container {
 	display: flex;
 	justify-content: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
+} */
 
 .project-boxes {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	
 	margin-top: 100px;
 	border: solid #191c1d 5px;
-	width: 1300px;
 	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
@@ -250,15 +217,15 @@ section div h2 {
 /* Contact Section */
 
 
-footer section h2 {
+/* footer section h2 {
 	background-color: #191c1d;
 	color: #f3f4f6;
 	padding: 20px;
-}
+} */
 
 .contact-details {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
 	background-color: #353b3f;
 	padding-top: 50px;
 }
@@ -350,7 +317,7 @@ footer section h2 {
 
 @media screen and (max-width: 768px) {
 	.intro {
-	background-image: url("images/newRavenMobile.jpeg");
+	background-image: url("images/climbMobile.jpeg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -413,7 +380,7 @@ footer section h2 {
 
 @media screen and (max-width: 500px) {
 	.intro {
-		background-image: url("images/newRavenMobile.jpeg");
+		background-image: url("images/climbMobile.jpeg");
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -461,7 +428,7 @@ footer section h2 {
 
 @media screen and (max-width: 412px) {
 	.intro {
-		background-image: url("images/newRavenMobile.jpeg");
+		background-image: url("images/climbMobile.jpeg");
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -527,7 +494,7 @@ footer section h2 {
 
 @media screen and (max-width: 400px) {
 	.intro {
-		background-image: url("images/newRavenMobile.jpeg");
+		background-image: url("images/climbMobile.jpeg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
