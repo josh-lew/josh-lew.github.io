@@ -140,10 +140,6 @@ section div h2 {
 	padding: 20px;
 }
 
-.josh-photo {
-	width: 650px;
-	height: auto;
-}
 
 /* PORTFOLIO SECTION*/
 
@@ -271,13 +267,8 @@ section div h2 {
 	
 	.text{
 		width: 650px;
-		border-right: solid #191c1d 5px;
 	}
 	
-	.josh-photo {
-		width: 650px;
-		border-left: solid #191c1d 5px;
-	}
 }
 
 @media screen and (max-width: 950px) {
