@@ -12,7 +12,7 @@
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
 	background-color: rgba(204, 206, 211, 0.7); /* Set a background color */
-	color: white; Text color
+	color: white;
 	cursor: pointer; /* Add a mouse pointer on hover */
 	padding: 15px; /* Some padding */
 	border-radius: 10px; /* Rounded corners */
@@ -28,8 +28,10 @@ body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-nav {
-	background-color: #191c1d;
+.navbar {
+	/* background-color: #191c1d; */
+	background-color: rgba(127 127 127 0);
+	color: #ffffff;
 	padding: 20px;
 }
 
@@ -89,17 +91,71 @@ a:active {
 	text-decoration: none; 
 }
 
-header {
+.hero {
+	width: 100%;
+    height: 100vh;
+    background: url("images/climb.jpg");
+    background-size: cover;
+    position: relative;
+
+
+	/* position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+	/* height: 825px;
+	padding-top: 220px; */
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.hero::before {
+
+	content: "";
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+	/* content: "";
 	background-image: url("images/climb.jpg");
-	background-position: center top;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.85; */
+
+
+	/* height: 100%; */
+	/* background-position: center top;
 	background-repeat: no-repeat;
-	/* background-attachment: fixed; */
+	background-attachment: fixed;
 	background-size: cover;
 	background-color: #d0d1d3;
 	width: 100%;
 	height: 825px;
-	padding-top: 220px;
-	font-family: 'Ibarra Real Nova', serif;
+	padding-top: 220px; */
+}
+
+.nameBackground {
+	position: absolute;
+	top: 32%;
+	left: 43%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1 {
+	color: #ffffff;
 }
 	
 /* ABOUT SECTION*/
@@ -461,12 +517,12 @@ section div h2 {
 	.project-boxes {
 		display: flex;
 		flex-direction: column;
-		width: 90%;
-		margin-left: 20px;
+		width: 250px;
+		margin-left: 10px;
 	}
 
 	.project-photo {
-		width: 300px;
+		width: 200px;
 		height: auto;
 		opacity: 1;
 		padding-left: 27px;
