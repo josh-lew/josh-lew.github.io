@@ -1,179 +1,166 @@
 * {
 	box-sizing: border-box;
-}
-
-html {
 	scroll-behavior: smooth;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 body {
 	margin: 0;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-nav {
-	background-color: #191c1d;
+#myBtn {
+	display: none; 
+	position: fixed; 
+	bottom: 20px; 
+	right: 20px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: rgba(204, 206, 211, 0.7); 
+	color: white;
+	cursor: pointer; 
+	padding: 15px; 
+	border-radius: 10px; 
+	font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+	background-color: #f1c296;
+  }
+
+
+.navbar {
+	color: #ffffff;
 	padding: 20px;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.25), transparent);
 }
 
-.navbar-container {
-	display: flex;
+nav button {
+	background-color: transparent;
+}
+
+.dropdownButton {
+	color: #ffffff;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	top: 0;
+	background-color: #27455f;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdownContent a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdownContent a:hover {
+	background-color: #ddd;
+}
+
+nav a {
+	font-weight: bolder;
+	color: #ffffff;
+}
+
+body header nav a:link { 
+	text-decoration: none;
+}
+
+body header nav a:visited { 
+	text-decoration: none; 
+}
+
+body header nav a:hover { 
+	color: #f1c296;
+}
+
+body header nav a:active { 
+	text-decoration: none; 
+}
+
+.hero {
+	width: 100%;
+    min-height: 100vh;
+    background: url("images/climb.jpg");
+    background-size: cover;
+    position: relative;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.hero::before {
+
+	content: "";
+    background: rgba(0, 0, 0, 0.50);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nameBackground {
+	position: absolute;
+	top: 40%;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
 
-.name a {
-	color: #f3f4f6;
-	border: solid #f3f4f6 2px;
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 40px;
-	padding-top: 5px;
+h1 {
+	color: #ffffff;
 }
 
-.nav-buttons-1 a {
-
-	margin-right: 20px;
-	color: #fbfcfc;
-	font-size: 20px;
-}
-
-.nav-buttons-2 a {
-	margin-left: 20px;
-	color: #fbfcfc;
-	font-size: 20px;
-}
-
-.name a:link { 
-	text-decoration: none;
-}
-
-.name a:visited { 
-	text-decoration: none; 
-}
-
-.name a:hover { 
-	text-decoration: none;
-	color: #1d7e2b;
-}
-
-.name a:active { 
-	text-decoration: none; 
-}
-
-a:link { 
-	text-decoration: none;
-}
-
-a:visited { 
-	text-decoration: none; 
-}
-
-a:hover { 
-	text-decoration: none;
-	color: #1d7e2b;
-}
-
-a:active { 
-	text-decoration: none; 
-}
-
-.intro {
-	background-image: url("images/raven2.jpeg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #d0d1d3;
-	width: 100%;
-	height: 700px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	padding-right: 20%;
-	padding-bottom: 200px;
-	padding-top: 360px;
-	font-family: 'Ibarra Real Nova', serif;
-}
 	
-.blurb h1 {
-	font-size: 50px;
-	color: #050608;;
-}
-
-.blurb h1 :hover {
-	color: red;
-}
-
-.blurb h3 {
-	font-size: 30px;
-	color: #050608;
-}
-
 /* ABOUT SECTION*/
 
 .about {
-	background-image: url("images/about-photo.jpg");
+	background-image: url("images/Josh-Kaly-10.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #d0d1d3;
+	padding-bottom: 100px;
 }
 
-.central-container {
-	height: 100px;
-}
-
-section .title-border {
-	display: flex;
-	justify-content: center;	
+.titleBorder {	
 	background-color: #191c1d;
-	width: 100%;
 }
 
 section div h2 {
 	background-color: #191c1d;
 	color: #f3f4f6;
-	padding: 20px;
-
 }
 
-.about-container {
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.about {
+	min-height: 100vh;
+}
+
+.aboutHeader {
+	margin-bottom: 50px;
+}
+
+.aboutContainer {
+	border: solid #191c1d 3px;
+	background-color:rgba(204, 206, 211, 0.7);
+	margin-top: 100px;
 }
 
 .text {
-	width: 650px;
-	height: 540px;
 	font-size: 1.5rem;
-	border: solid #191c1d 10px;
-	padding: 35px;
-	background-color:rgba(204, 206, 211, 0.7);
 	font-family:  'Ibarra Real Nova', serif;
-	text-align: center;
-	border: solid #191c1d 5px;
-	border-right: 0.5px solid transparent;
 }
-
-.josh-photo {
-	width: 650px;
-	height: 540px;
-	background-color:rgba(204, 206, 211, 0.7);
-	padding: 60px;
-	border: solid #191c1d 5px;
-	border-left: solid transparent 0.5px;
-}
-
 
 /* PORTFOLIO SECTION*/
 
-
 .portfolio {
-	background-image: url("images/about-photo.jpg");
+	background-image: url("images/Josh-Kaly-10.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -181,29 +168,23 @@ section div h2 {
 	background-color: #d0d1d3;
 }
 
-.portfolio-container {
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.projects {
+	padding-bottom: 100px;
 }
 
 .project-boxes {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	margin-top: 100px;
-	border: solid #191c1d 5px;
-	width: 1300px;
+	border: solid #191c1d 3px;
 	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
 
 .project-photo {
-	width: 380px;
-	height: auto;
+	height: 300px;
+	width: auto;
 	opacity: 0.6;
-	padding-left: 20px;
+	/* margin-left: 20px; */
+	border: 1px solid #191c1d;
 }
 
 .project-photo:hover {
@@ -213,7 +194,47 @@ section div h2 {
 .project-description {
 	display: flex;
 	flex-direction: column;
-	width: 25%;
+	font-size: 1.2rem;
+}
+
+.language {
+	color: #ffffff;
+	background-color: #3b5c72;
+	border-radius: 20%;
+}
+  
+
+
+.language:link { 
+	text-decoration: none;
+}
+
+.language:visited { 
+	text-decoration: none; 
+}
+
+.language:hover { 
+	color: #f1b37a;
+		animation: shake 0.3s;
+  		animation-iteration-count: 0.3s;
+}
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.language:active { 
+	text-decoration: none; 
 }
 
 .links {
@@ -224,14 +245,12 @@ section div h2 {
 
 .github {
 	width: 50px;
-	height: auto;
 	padding-bottom: 20px;
 	transition: transform 0.5s;
 }
 
 .live {
 	width: 50px;
-	height: auto;
 	transition: transform 0.5s;
 }
 
@@ -245,24 +264,16 @@ section div h2 {
 	transition: transform 0.5s;
 }
 
-
 /* Contact Section */
 
+.contactDetails {
 
-footer section h2 {
-	background-color: #191c1d;
-	color: #f3f4f6;
-	padding: 20px;
-}
-
-.contact-details {
-	display: flex;
-	justify-content: center;
 	background-color: #353b3f;
 	padding-top: 50px;
+
 }
 
-.contact-details div a img {
+.contactDetails div a img {
 	width: 75px;
 	height: auto;
 	padding-left: 10px;
@@ -289,276 +300,18 @@ footer section h2 {
 	transition: transform 0.5s; 
 }
 
-/* MEDIA SCREEN SECTION*/
-
-@media screen and (max-width: 1330px) {
-	.project-boxes {
-		width: 90%;
-		margin-left: 50px;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		width: 650px;
-		height: auto;
-		margin-left: 15%;
-	}
-	
-	.text{
-		width: 650px;
-		border-right: solid #191c1d 5px;
-	}
-	
-	.josh-photo {
-		width: 650px;
-		border-left: solid #191c1d 5px;
-	}
-}
-
-@media screen and (max-width: 950px) {
-	.project-description {
-		display: none;
-	}
-	.portfolio-container {
-		display: flex;
-		flex-direction: column;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	.project-photo {
-		width: 300px;
-		height: auto;
-	}
-}
-	
-@media screen and (max-width: 800px) {
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		width: 650px;
-		height: auto;
-		margin-left: 10%;
-	}
-}	
-	
-@media screen and (max-width: 700px) {
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		height: auto;
-		margin-left: 2px;
-	}	
-	
-	.text {
-		width: 400px;
-		height: auto;
-		margin-left: 10%;
-		padding: 10px;
-		font-size: 1.3rem;
-	}
-	
-	.josh-photo {
-		width: 400px;
-		height: auto;
-		margin-left: 10%;
-		padding: 30px;
-	}
-	
-	.project-boxes {
-		display: flex;
-		flex-direction: column;
-		margin-left: 30px;
-	}
-	
-	.links {
-		display: flex;
-		justify-content: center;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.nav-buttons-1 a {
-		display: none;
-	}
-	
-	.nav-buttons-2 a {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
 	.intro {
-		background-image: url("images/raven-resize.jpeg");
-		background-position: center center;
+		background-image: url("images/climbMobile.jpeg");
+		background-position: center top;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
 		background-color: #d0d1d3;
 		width: 100%;
-		height: 825px;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		text-align: right;
-		padding-right: 5%;
-		padding-bottom: 500px;
-		padding-top: 0;
-	}
-	
-	.blurb {
-		padding-top: 405px;
-		padding-left: 80%;
-	}
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		height: auto;
-	}	
-	
-	.text {
-		width: 370px;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: 0px;
-		padding: 10px;
-		font-size: 1.1rem;
-	}
-	
-	.josh-photo {
-		width: 370px;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: auto;
-		padding: 10px;
+		height: 700px;
 	}
 }	
 
-@media screen and (max-width: 412px) {
-	.intro {
-		background-image: url("images/raven-resize.jpeg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		background-color: #d0d1d3;
-		width: 100%;
-		height: 825px;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		text-align: right;
-		padding-right: 5%;
-		padding-bottom: 500px;
-		padding-top: 0;
-	}
-	
-	.blurb {
-		padding-top: 300px;
-		padding-left: 80%;
-	}
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		width: 100%;
-		height: auto;
-	}	
-	
-	.text {
-		width: 95%;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: auto;
-		padding: 5px;
-		font-size: 1rem;
-	}
-	
-	.josh-photo {
-		width: 95%;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: auto;
-		padding: 5px;
-	}
-		
-	.project-boxes {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		margin-left: 20px;
-	}
 
-	.project-photo {
-		width: 300px;
-		height: auto;
-		opacity: 1;
-		padding-left: 27px;
-	}
-	.projects div h3 {
-		padding-left: 27px;
-	}
-}	
-
-@media screen and (max-width: 400px) {
-	.intro {
-		background-image: url("images/raven-resize.jpeg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		background-color: #d0d1d3;
-		width: 100%;
-		height: 825px;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		text-align: right;
-		padding-right: 5%;
-		padding-bottom: 500px;
-		padding-top: 0;
-	}
-	
-	.blurb {
-		padding-top: 496px;
-		padding-left: 80%;
-	}
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		width: 350px;
-		height: auto;
-	}	
-	
-	.text {
-		width: 335px;
-		height: auto;
-		border: solid #191c1d 5px;
-		padding: 5px;
-		margin: 18px;
-		font-size: 1rem;
-	}
-	
-	.josh-photo {
-		width: 335px;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: 18px;
-		padding: 5px;
-	}
-	
-	.project-boxes {
-		display: flex;
-		flex-direction: column;
-		width: 350px;
-		margin: 14px;
-	}
-}	
 
