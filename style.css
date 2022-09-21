@@ -25,7 +25,7 @@ body {
   }
   
   #myBtn:hover {
-	background-color: #555;
+	background-color: #f1c296;
   }
 
 
@@ -39,11 +39,15 @@ nav button {
 	background-color: transparent;
 }
 
+.dropdownButton {
+	color: #ffffff;
+}
+
 .dropdownContent {
 	display: none;
 	position: absolute;
 	top: 0;
-	background-color: #f1f1f1;
+	background-color: #27455f;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -61,67 +65,24 @@ nav button {
 
 nav a {
 	font-weight: bolder;
+	color: #ffffff;
 }
 
-/* .name a {
-	color: #f3f4f6;
-	border: solid #f3f4f6 2px;
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 40px;
-	padding-top: 5px;
-} */
-
-/* .nav-buttons-1 a {
-
-	margin-right: 20px;
-	color: #fbfcfc;
-	font-size: 20px;
-}
-
-.nav-buttons-2 a {
-	margin-left: 20px;
-	color: #fbfcfc;
-	font-size: 20px;
-} */
-
-/* Not working below */
-
-/* .name a:link { 
+body header nav a:link { 
 	text-decoration: none;
 }
 
-.name a:visited { 
+body header nav a:visited { 
 	text-decoration: none; 
 }
 
-.name a:hover { 
-	text-decoration: none;
-	color: #1d7e2b;
+body header nav a:hover { 
+	color: #f1c296;
 }
 
-.name a:active { 
-	text-decoration: none; 
-} */
-
-.navLink:link { 
-	text-decoration: none;
-}
-
-.navLink:visited { 
+body header nav a:active { 
 	text-decoration: none; 
 }
-
-.navLink:hover { 
-	text-decoration: none;
-	color: #1d7e2b;
-}
-
-.navLink:active { 
-	text-decoration: none; 
-}
-
-/* above not working */
 
 .hero {
 	width: 100%;
@@ -145,7 +106,7 @@ nav a {
 
 .nameBackground {
 	position: absolute;
-	top: 280px;
+	top: 40%;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -186,7 +147,7 @@ section div h2 {
 }
 
 .aboutContainer {
-	border: solid #191c1d 5px;
+	border: solid #191c1d 3px;
 	background-color:rgba(204, 206, 211, 0.7);
 	margin-top: 100px;
 }
@@ -194,10 +155,7 @@ section div h2 {
 .text {
 	font-size: 1.5rem;
 	font-family:  'Ibarra Real Nova', serif;
-	/* text-align: center; */
-	/* padding: 20px; */
 }
-
 
 /* PORTFOLIO SECTION*/
 
@@ -216,7 +174,7 @@ section div h2 {
 
 .project-boxes {
 	margin-top: 100px;
-	border: solid #191c1d 5px;
+	border: solid #191c1d 3px;
 	background-color: rgba(204, 206, 211, 0.7);
 	padding-right: 30px;
 }
@@ -241,6 +199,42 @@ section div h2 {
 
 .language {
 	color: #ffffff;
+	background-color: #3b5c72;
+	border-radius: 20%;
+}
+  
+
+
+.language:link { 
+	text-decoration: none;
+}
+
+.language:visited { 
+	text-decoration: none; 
+}
+
+.language:hover { 
+	color: #f1b37a;
+		animation: shake 0.3s;
+  		animation-iteration-count: 0.3s;
+}
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.language:active { 
+	text-decoration: none; 
 }
 
 .links {
@@ -251,14 +245,12 @@ section div h2 {
 
 .github {
 	width: 50px;
-	height: auto;
 	padding-bottom: 20px;
 	transition: transform 0.5s;
 }
 
 .live {
 	width: 50px;
-	height: auto;
 	transition: transform 0.5s;
 }
 
@@ -308,15 +300,6 @@ section div h2 {
 	transition: transform 0.5s; 
 }
 
-/* MEDIA SCREEN SECTION*/
-
-/* @media screen and (max-width: 1330px) {
-	.project-boxes {
-		width: 90%;
-		margin-left: 50px;
-	}
-} */
-
 @media screen and (max-width: 576px) {
 	.intro {
 		background-image: url("images/climbMobile.jpeg");
@@ -327,42 +310,7 @@ section div h2 {
 		background-color: #d0d1d3;
 		width: 100%;
 		height: 700px;
-		/* display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		text-align: right;
-		padding-right: 5%;
-		padding-bottom: 500px;
-		padding-top: 0; */
 	}
-	
-	/* .blurb {
-		padding-top: 405px;
-		padding-left: 80%;
-	}
-	
-	.about-container{
-		display: flex;
-		flex-direction: column-reverse;
-		height: auto;
-	}	
-	
-	.text {
-		width: 370px;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: 0px;
-		padding: 10px;
-		font-size: 1.1rem;
-	}
-	
-	.josh-photo {
-		width: 370px;
-		height: auto;
-		border: solid #191c1d 5px;
-		margin: auto;
-		padding: 10px;
-	} */
 }	
 
 

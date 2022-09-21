@@ -16,29 +16,30 @@
 <body>	
 	<header class="intro container-fluid hero" id="splash">
 		<nav class="navbar row justify-content-center align-items-center fs-3 py-2 py-md-3 py-lg-3">
-			<a class="navLink d-none d-lg-block col text-center text-lg-end text-white" href="#about-section">About</a>
-			<a class="navLink d-none d-lg-block col text-center text-white" href="#portfolio-section">Portfolio</a>
-			<a id="jlLogo" class="d-none d-lg-block col-4 col-md-2 col-lg-2 text-center fs-1 fs-md-2 fs-lg-2 text-white border border-3 border-white" href="#">JL</a>
+			<a class="navLink d-none d-lg-block col text-center text-lg-end" href="#about-section">About</a>
+			<a class="navLink d-none d-lg-block col text-center" id="navLink" href="#portfolio-section">Portfolio</a>
+			<p id="jlLogo" class="d-none d-lg-block col-4 col-md-2 col-lg-2 text-center fs-1 fs-md-2 fs-lg-2 border border-3 border-white" href="#">JL</p>
 			<!-- mobile dropdown -->
 
-			<button id="dropdownButton" class="dropdownButton d-block d-lg-none col-4 col-md-2 col-lg-2 text-center fs-1 fs-md-2 fs-lg-2 text-white border border-3 border-white" href="#">JL</button>
+			<button id="dropdownButton" class="dropdownButton d-block d-lg-none col-4 col-md-2 col-lg-2 text-center fs-1 fs-md-2 fs-lg-2 border border-3 border-white" href="#">JL</button>
 				<div id="myDropdown" class="dropdownContent">
-					<a class="dropdownLink1" href="#about-section"#>About</a>
-					<a class="dropdownLink2" href="#portfolio-section">Portfolio</a>
-					<a class="dropdownLink3" href="#contact-section"#>Contact</a>
-					<a class="dropdownLink4" href="#"#>CV</a>
+					<a class="dropdownLink1 text-center pt-4" href="#about-section"#>About</a>
+					<a class="dropdownLink2 text-center" href="#portfolio-section">Portfolio</a>
+					<a class="dropdownLink3 text-center" href="#contact-section"#>Contact</a>
+					<a class="dropdownLink4 text-center pb-4" href="#"#>CV</a>
 				</div>
 
 			<!-- mobile dropdown -->
 
-			<a class="navLink d-none d-lg-block col text-white text-center" href="#contact-section">Contact</a>
-			<a class="navLink d-none d-lg-block col text-start  text-white" href="#">CV</a>
+			<a class="navLink d-none d-lg-block col text-center" href="#contact-section">Contact</a>
+			<a class="navLink d-none d-lg-block col text-start " href="#">CV</a>
 		</nav>
-
-		<div class="nameBackground hero-container col-12 d-flex flex-column align-self-end align-items-center">
-			<h1 class="fs-1 text-white hitTheFloor">Josh Lewis </h1>
-			<h3 class="fs-3 text-white">Full Stack Developer</h3>
-		</div>	
+		<section class="row">
+			<div class="nameBackground col-12 d-flex flex-column align-self-end align-items-center">
+				<h1 class="fs-1 text-white">Josh Lewis </h1>
+				<h3 class="fs-3 text-white">Full Stack Developer</h3>
+			</div>	
+		</section>
 	</header>	
 	
 	<main class="about container-fluid">
@@ -50,14 +51,14 @@
 			</section>
 		</section>
 		
-		<section class="container">
+		<section class="container d-flex justify-content-center">
 			<div class="aboutContainer row d-flex justify-content-center col-12">
-				<div class="col-10 col-md-6 p-3 text">	
+				<div class="col-12 col-lg-6 p-3 text">	
 					<p>Hi everyone, I'm Josh and I'm a full stack developer based in Cardiff.</p> 
 					<p>Prior to joining the IO Academy I spent almost a decade working as an environmental consultant before being introduced to coding and making the leap into the tech.</p>
 					<p>When I'm away from my screen you will find me climbing rocks, out in the sea or scrambling about in nature.</p>
 				</div>
-				<div class="col-10 col-md-6">
+				<div class="col-12 col-lg-6">
 				<img class="josh-photo img-fluid p-3" src="images/profile-photo.jpeg" alt="Profile Photo">	
 				</div>				
 			</div>
@@ -76,14 +77,14 @@
 
 		<section class="container projects d-flex flex-column justify-content-center col-12">
 			<div class="project-boxes d-flex flex-column flex-lg-row justify-content-between align-items-center p-1 p-md-3">
-				<img class="project-photo img-fluid d-none d-md-block col-lg-3 ms-lg-3" src="images/Projects/guidebooksMob.png" alt="Project Photo">
-				<section class="col-12 col-lg-2">
+				<img class="project-photo img-fluid d-none d-md-block col-lg-3 ms-lg-3 mb-md-3" src="images/Projects/guidebooksMob.png" alt="Project Photo">
+				<section class="col-12 col-lg-2 mb-md-1">
 					<h3 class="fs-2 text-center">Guidebook Collection</h3>
 					<section class="d-none d-lg-flex flex-direction-row justify-content-center">
-						<div class="language mt-3 mx-1 p-1 bg-secondary">HTML</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">CSS</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">PHP</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">MySQL</div>
+						<div class="language mt-3 mx-1 py-1 px-2">HTML</div>
+						<a class="language mt-3 mx-1 py-1 px-2">CSS</a>
+						<a class="language mt-3 mx-1 py-1 px-2">PHP</a>
+						<a class="language mt-3 mx-1 py-1 px-2">MySQL</a>
 					</section>
 				</section>
 				<section class="d-flex project-description col-12 col-lg-4 px-3 px-lg-0 text-center">
@@ -101,9 +102,9 @@
 				<section class="col-12 col-lg-2">
 					<h3 class="fs-2 text-center">Quotlefish</h3>
 					<section class="d-none d-lg-flex flex-direction-row justify-content-center">
-						<div class="language mt-3 mx-1 p-1 bg-secondary">HTML</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">CSS</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">JavaScript</div>
+						<a class="language mt-3 mx-1 py-1 px-2">HTML</a>
+						<a class="language mt-3 mx-1 py-1 px-2">CSS</a>
+						<a class="language mt-3 mx-1 py-1 px-2">JavaScript</a>
 					</section>
 				</section>
 				<section class="d-flex project-description col-12 col-lg-4 px-3 px-lg-0 text-center">
@@ -121,9 +122,9 @@
 				<section class="col-12 col-lg-2">
 					<h3 class="fs-2 text-center">Seamail Email Client</h3>
 					<section class="d-none d-lg-flex flex-direction-row justify-content-center">
-						<div class="language mt-3 mx-1 p-1 bg-secondary">HTML</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">CSS</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">JavaScript</div>
+						<a class="language mt-3 mx-1 py-1 px-2">HTML</a>
+						<a class="language mt-3 mx-1 py-1 px-2">CSS</a>
+						<a class="language mt-3 mx-1 py-1 px-2">JavaScript</a>
 					</section>
 				</section>
 				<section class="d-flex project-description col-12 col-lg-4 px-3 px-lg-0 text-center">
@@ -141,10 +142,10 @@
 				<section class="col-12 col-lg-2">
 					<h3 class="fs-2 text-center">Dunkin' Bisquids</h3>
 					<section class="d-none d-lg-flex flex-direction-row justify-content-center">
-						<div class="language mt-3 mx-1 p-1 bg-secondary">HTML</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">CSS</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">PHP</div>
-						<div class="language mt-3 mx-1 p-1 bg-secondary">MySQL</div>
+						<a class="language mt-3 mx-1 py-1 px-2">HTML</a>
+						<a class="language mt-3 mx-1 py-1 px-2">CSS</a>
+						<a class="language mt-3 mx-1 py-1 px-2">PHP</a>
+						<a class="language mt-3 mx-1 py-1 px-2">MySQL</a>
 					</section>
 				</section>
 				<section class="d-flex project-description col-12 col-lg-4 px-3 px-lg-0 text-center">
@@ -169,8 +170,8 @@
 		
 		<section class="contactDetails d-flex justify-content-center">
 			<div class="flex-row justify-content-center align-items-center">
-				<a href="#"><img class="contact-links" src="images/email.png" alt="email link"></a>
-				<a href="#"><img class="contact-links" src="images/github.png" alt="github link"></a>
+				<a href="mailto: joshlewisdev+jobs@gmail.com"><img class="contact-links" src="images/email.png" alt="email link"></a>
+				<a href="https://github.com/josh-lew" target="_blank"><img class="contact-links" src="images/github.png" alt="github link"></a>
 				<a href="https://www.linkedin.com/in/joshua-lewis-20815073" target="_blank"><img class="contact-links" src="images/linkedin.png" alt="linkedin link"></a>
 				<a href="#"><img class="contact-links" src="images/cv.png" alt="cv link"></a>
 			</div>
