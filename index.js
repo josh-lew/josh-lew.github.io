@@ -30,7 +30,6 @@ let displayDropdown = false
 dropdownButton.addEventListener('click', () => {
   dropdownContent.style.display = 'block'
   displayDropdown = true
-  console.log("yup I'm here")
 })
 
 dropdownLink1.addEventListener('click', () => {
